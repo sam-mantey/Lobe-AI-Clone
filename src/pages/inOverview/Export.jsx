@@ -3,7 +3,7 @@ import { Box, Heading, Text, Link, keyframes } from '@chakra-ui/react'
 import React, { useState } from 'react'
 import Framer from "../../assets/bubble/frammer.svg"
 import Azure from "../../assets/bubble/azure.svg"
-import MacOs from "../../assets/bubble/macOs.svg"
+import MacOs from "../../assets/bubble/macOS.svg"
 import Tensorflow from "../../assets/bubble/tensorflow.svg"
 import Python from "../../assets/bubble/python.svg"
 import Unity from "../../assets/bubble/unity.svg"
