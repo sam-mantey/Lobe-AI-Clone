@@ -36,8 +36,7 @@ export default function Footer() {
                     "socials"
                     "rights"`,
                     sm: `
-                    "about about"
-                    "general general"
+                    "about general"
                     "resources socials"
                     "rights rights"`,
                     md: `
