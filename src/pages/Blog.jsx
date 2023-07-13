@@ -16,8 +16,8 @@ export default function Blog() {
       <Box
         position={'relative'}
         top={"70px"}
-        paddingY={"50px"} >
-
+        paddingY={"50px"} 
+        mx={'5%'}>
           <Box
             mx={'auto'} 
             width={{base: '80%', sm: '60%', lg: '50%'}}>
@@ -303,11 +303,15 @@ export default function Blog() {
             </Box>
           </SimpleGrid>
 
+
+
+          {/* last box */}
           <Box
               maxWidth={{base: '428px', lg: '510px'}}
               boxShadow={'xl'}
               borderRadius={'25px'}
               mx={'auto'}
+              marginBottom={'40px'}
               >
               <Box>
                 <Image 
