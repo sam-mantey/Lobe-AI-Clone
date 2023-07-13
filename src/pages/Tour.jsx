@@ -1,6 +1,6 @@
 import { Box, Heading, Image, Text } from '@chakra-ui/react'
 import React from 'react'
-import vidImg from '../assets/tour-gallery/video.jpg'
+import vidImg from '../assets/tour-gallery/Video.jpg'
 
 export default function Tour() {
   return (
