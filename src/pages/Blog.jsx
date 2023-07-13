@@ -92,7 +92,7 @@ export default function Blog() {
 
                 <Text
                   color={'#989898'}
-                  fontSize={{base: '1rem', sm: '1.5rem'}}
+                  fontSize={{base: '1rem', sm: '1.2rem'}}
                   paddingBottom={'20px'}
                   >
                   Product . 15 November 2021</Text>
@@ -137,7 +137,7 @@ export default function Blog() {
 
                 <Text
                   color={'#989898'}
-                  fontSize={{base: '1rem', sm: '1.5rem'}}
+                  fontSize={{base: '1rem', sm: '1.2rem'}}
                   paddingBottom={'20px'}
                   >
                   Product . 23 March 2021</Text>
@@ -183,7 +183,7 @@ export default function Blog() {
 
                 <Text
                   color={'#989898'}
-                  fontSize={{base: '1rem', sm: '1.5rem'}}
+                  fontSize={{base: '1rem', sm: '1.2rem'}}
                   paddingBottom={'20px'}
                   >
                   Product . 23 March 2021</Text>
@@ -228,7 +228,7 @@ export default function Blog() {
 
                 <Text
                   color={'#989898'}
-                  fontSize={{base: '1rem', sm: '1.5rem'}}
+                  fontSize={{base: '1rem', sm: '1.2rem'}}
                   paddingBottom={'20px'}
                   >
                   Product . 31 March 2021
@@ -275,7 +275,7 @@ export default function Blog() {
 
                 <Text
                   color={'#989898'}
-                  fontSize={{base: '1rem', sm: '1.5rem'}}
+                  fontSize={{base: '1rem', sm: '1.2rem'}}
                   paddingBottom={'20px'}
                   >
                   Release . 10 December 2020
@@ -324,7 +324,7 @@ export default function Blog() {
 
                 <Text
                   color={'#989898'}
-                  fontSize={{base: '1rem', sm: '1.5rem'}}
+                  fontSize={{base: '1rem', sm: '1.2rem'}}
                   paddingBottom={'20px'}
                   >
                   Release . 10 December 2020
