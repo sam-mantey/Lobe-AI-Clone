@@ -59,6 +59,11 @@ export default function Blog() {
               boxShadow={'xl'}
               borderRadius={'25px'}
               mx={"auto"}
+              _hover= {
+                {transform : 'scale(1.1)',
+                cursor: 'pointer'}
+            }
+              transition="transform .8s ease-in-out"
               >
               <Box>
                 <Image 
@@ -99,6 +104,11 @@ export default function Blog() {
               boxShadow={'xl'}
               borderRadius={'25px'}
               mx={'auto'}
+              _hover= {
+                {transform : 'scale(1.1)',
+                cursor: 'pointer'}
+            }
+              transition="transform .8s ease-in-out"
               >
               <Box>
                 <Image 
@@ -140,6 +150,11 @@ export default function Blog() {
               boxShadow={'xl'}
               borderRadius={'25px'}
               mx="auto"
+              _hover= {
+                {transform : 'scale(1.1)',
+                cursor: 'pointer'}
+            }
+              transition="transform .8s ease-in-out"
               >
               <Box>
                 <Image 
@@ -180,6 +195,11 @@ export default function Blog() {
               boxShadow={'xl'}
               borderRadius={'25px'}
               mx={'auto'}
+              _hover= {
+                {transform : 'scale(1.1)',
+                cursor: 'pointer'}
+            }
+              transition="transform .8s ease-in-out"
               >
               <Box>
                 <Image 
@@ -222,6 +242,11 @@ export default function Blog() {
               boxShadow={'xl'}
               borderRadius={'25px'}
               mx={'auto'}
+              _hover= {
+                {transform : 'scale(1.1)',
+                cursor: 'pointer'}
+            }
+              transition="transform .8s ease-in-out"
               >
               <Box>
                 <Image 
@@ -266,6 +291,11 @@ export default function Blog() {
               boxShadow={'xl'}
               borderRadius={'25px'}
               mx={'auto'}
+              _hover= {
+                {transform : 'scale(1.1)',
+                cursor: 'pointer'}
+            }
+              transition="transform .8s ease-in-out"
               >
               <Box>
                 <Image 
@@ -312,6 +342,11 @@ export default function Blog() {
               borderRadius={'25px'}
               mx={'auto'}
               marginBottom={'40px'}
+              _hover= {
+                {transform : 'scale(1.1)',
+                cursor: 'pointer'}
+            }
+              transition="transform .8s ease-in-out"
               >
               <Box>
                 <Image 

@@ -18,7 +18,7 @@ export default function RouteLayout() {
                 p={"1rem"} 
                 position={"fixed"} 
                 width="100%" 
-
+                top={'0'}
                 height={"fit-content"} 
                 zIndex={"2"}
                 bg={"palette.200"}>

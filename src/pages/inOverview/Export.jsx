@@ -72,6 +72,7 @@ export default function Export() {
                     </Text>
                     <Text 
                         display={"inline"}
+                        transition="transform 1s ease-in-out"
                         animation={myhover}> {destination}</Text>
                 </Heading>
 
