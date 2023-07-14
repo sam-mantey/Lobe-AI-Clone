@@ -220,8 +220,8 @@ export default function Overview() {
             gap={{base: "6", lg: 0}}
             >
             <Box 
-              borderRadius={"13px"} 
-              overflow={"hidden"}  
+            borderRadius={"13px"} 
+            overflow={"hidden"}  
               width={{base: "46px", sm: "55px", md: "65px"}}
               height={{base: "46px", sm: "55px", md: "65px"}}
               >
