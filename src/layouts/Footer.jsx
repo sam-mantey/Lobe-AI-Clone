@@ -45,7 +45,7 @@ export default function Footer() {
                 }
                 justifyItems={"center"}
                 gap={'10'}
-                width={"80vw"}
+                width={"50%"}
                 mx={"auto"}
                 borderTop={"2px solid #333333"}
                 py={"60px"}
@@ -53,9 +53,9 @@ export default function Footer() {
                 <GridItem area={"about"} display={"grid"}  width={"fit-content"} textAlign={"center"}>
                     <Text color={"#333333"} fontWeight={"500"}>About</Text>
                     <Link>Download</Link>
-                    <Link>Overview</Link>
-                    <Link>Example</Link>
-                    <Link>Blog</Link>
+                    <Link to='/'>Overview</Link>
+                    <Link to='/examples'>Example</Link>
+                    <Link to='/blog'>Blog</Link>
                 </GridItem>
                 <GridItem display={"grid"} area={"general"} width={"fit-content"}  textAlign={"center"}>
                     <Text color={"#333333"} fontWeight={"500"}>General</Text>
@@ -66,8 +66,8 @@ export default function Footer() {
                 </GridItem>
                 <GridItem display="grid" area={"resources"} width={"fit-content"}  textAlign={"center"}>
                     <Text color={"#333333"} fontWeight={"500"}>Resources</Text>
-                    <Link>Help</Link>
-                    <Link>Tour</Link>
+                    <Link to='/help'>Help</Link>
+                    <Link to='/tour'>Tour</Link>
                     <Link>Contact</Link>
                     <Link>Privacy</Link>
                 </GridItem>

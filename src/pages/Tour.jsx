@@ -1,8 +1,9 @@
 import { Box, Heading, Image, Text } from '@chakra-ui/react'
-import React from 'react'
+import React, { useState } from 'react'
 import vidImg from '../assets/tour-gallery/Video.jpg'
 
 export default function Tour() {
+  // const [isVideoOpen, setIsVideoOpen] = useState(false)
   return (
     <>
       <Box
@@ -41,13 +42,49 @@ export default function Tour() {
           </Box>
 
 
-          <Image src={vidImg} borderRadius={'25px'} my={{base: '40px', sm: '70px'}} boxShadow={'xl'} _hover= {
-                {transform : 'scale(1.1)',
-                cursor: 'pointer', boxShadow: '2xl'}
-            }
-              transition="transform .8s ease-in-out"
+          <Image 
+            src={vidImg} borderRadius={'25px'} 
+            my={{base: '40px', sm: '70px'}} 
+            boxShadow={'xl'} 
+            _hover= {{
+              transform:'scale(1.1)',
+              cursor:"pointer"
+            }}
+            transition="transform .8s ease-in-out"
+            // onClick={() => {
+            //   setIsVideoOpen(true)
+            //   console.log(isVideoOpen)
+            // }}
               />
+
+            
       </Box>
+      {/* <VideoOverlay /> */}
     </>
   )
 }
+
+
+
+
+// const VideoOverlay = () => {
+//   return (
+//     <>  
+//       <Box
+//         height={'100%'}
+//         width={"100%"}
+//         backgroundColor={'#000'}
+//         position={'fixed'}
+//         display={'flex'}
+//         zIndex={99}>
+//           <Box
+//             backgroundColor={'white'}
+//             height={'200px'}
+//             width={'400px'} 
+//             >
+//               hello
+//           </Box>
+//       </Box>
+//     </>
+//   )
+// }
